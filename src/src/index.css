@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* custom dark helpers */
+:root {
+  --bg:#071023;
+  --card:#0f1a2a;
+  --muted:#9fb3c9;
+  --accent:#00aaff;
+}
+
+html,body,#root { height:100%; background:var(--bg); }
+
+.btn {
+  @apply inline-flex items-center gap-2 px-4 py-2 rounded-md font-medium;
+}
